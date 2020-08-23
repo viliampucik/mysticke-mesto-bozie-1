@@ -9,12 +9,11 @@
     <dc:language>sk-SK</dc:language>
     <meta refines="#id" property="title-type">main</meta>
     <meta refines="#id" property="file-as">Unknown</meta>
-    <meta property="dcterms:modified">2020-08-23T12:35:19Z</meta>
+    <meta property="dcterms:modified">2020-08-23T17:10:23Z</meta>
     <meta property="role" refines="#id-1" scheme="marc:relators">aut</meta>
     <meta property="calibre:author_link_map">{"Mária z Agredy": ""}</meta>
   </metadata>
   <manifest>
-    <item href="navigation.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
     <item href="main.xhtml" id="id0" media-type="application/xhtml+xml"/>
     <item href="imprimatur.xhtml" id="id1" media-type="application/xhtml+xml"/>
     <item href="special-notice.xhtml" id="id5" media-type="application/xhtml+xml"/>
@@ -33,14 +32,18 @@
     <item href="book-1/chapter-10.xhtml" id="id29" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-11.xhtml" id="id30" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-12.xhtml" id="id31" media-type="application/xhtml+xml"/>
+    <item href="book-1/chapter-13.xhtml" id="id72" media-type="application/xhtml+xml"/>
+    <item href="book-1/chapter-14.xhtml" id="id73" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-15.xhtml" id="id32" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-16.xhtml" id="id33" media-type="application/xhtml+xml"/>
+    <item href="book-1/chapter-17.xhtml" id="id71" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-18.xhtml" id="id34" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-19.xhtml" id="id35" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-20.xhtml" id="id36" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-21.xhtml" id="id37" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-22.xhtml" id="id38" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-23.xhtml" id="id39" media-type="application/xhtml+xml"/>
+    <item href="book-1/chapter-24.xhtml" id="id69" media-type="application/xhtml+xml"/>
     <item href="book-1/chapter-25.xhtml" id="id40" media-type="application/xhtml+xml"/>
     <item href="book-1/summary.xhtml" id="id41" media-type="application/xhtml+xml"/>
     <item href="book-2/intro.xhtml" id="id42" media-type="application/xhtml+xml"/>
@@ -69,12 +72,9 @@
     <item href="book-2/chapter-23.xhtml" id="id65" media-type="application/xhtml+xml"/>
     <item href="book-2/chapter-24.xhtml" id="id66" media-type="application/xhtml+xml"/>
     <item href="book-2/summary.xhtml" id="id68" media-type="application/xhtml+xml"/>
-    <item href="cover.jpg" id="cover" media-type="image/jpeg" properties="cover-image"/>
-    <item href="book-1/chapter-24.xhtml" id="id69" media-type="application/xhtml+xml"/>
-    <item href="book-1/chapter-17.xhtml" id="id71" media-type="application/xhtml+xml"/>
-    <item href="book-1/chapter-13.xhtml" id="id72" media-type="application/xhtml+xml"/>
-    <item href="book-1/chapter-14.xhtml" id="id73" media-type="application/xhtml+xml"/>
+    <item href="navigation.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
     <item href="toc.ncx" id="toc" media-type="application/x-dtbncx+xml"/>
+    <item href="cover.jpg" id="cover" media-type="image/jpeg" properties="cover-image"/>
   </manifest>
   <spine toc="toc">
     <itemref idref="id0"/>
@@ -136,5 +136,5 @@
     <itemref idref="id66"/>
     <itemref idref="id68"/>
     <itemref idref="nav"/>
-    </spine>
+  </spine>
 </package>
